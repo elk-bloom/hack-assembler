@@ -1,0 +1,26 @@
+# Compiled files
+/target/
+
+# Generated files
+**/*.rs.bk
+
+# Rust specific
+**/Cargo.lock
+!.cargo-ok
+
+# VSCode specific
+.vscode/*
+
+# Ignore .env files
+.env
+.env.*
+
+# Ignore backup files
+*~
+**/*~
+
+# Ignore other common files
+.DS_Store
+Thumbs.db
+
+/tests/outputs/
